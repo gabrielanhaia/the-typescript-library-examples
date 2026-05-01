@@ -1,6 +1,6 @@
 # Book 3 — Kotlin and Java to TypeScript
 
-Runnable code examples for **Book 3** of *The TypeScript Library* — *Kotlin and Java to TypeScript: A Bridge for JVM Developers* by Gabriel Anhaia.
+Runnable code examples for **Book 3** of _The TypeScript Library_ — _Kotlin and Java to TypeScript: A Bridge for JVM Developers_ by Gabriel Anhaia.
 
 This folder is one of four in the [the-typescript-library-examples](https://github.com/gabrielanhaia/the-typescript-library-examples) repository. The top-level [README](../README.md) explains the collection.
 

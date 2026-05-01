@@ -3,18 +3,25 @@
 Runnable, CI-verified code examples that accompany the books in
 **_The TypeScript Library_** by Gabriel Anhaia.
 
+<p align="center">
+  <a href="./typescript-essentials"><img src="./covers/typescript-essentials.png" alt="Book 1 — TypeScript Essentials" width="170"></a>&nbsp;
+  <a href="./typescript-type-system"><img src="./covers/typescript-type-system.png" alt="Book 2 — The TypeScript Type System" width="170"></a>&nbsp;
+  <a href="./jvm-to-typescript"><img src="./covers/jvm-to-typescript.png" alt="Book 3 — Kotlin and Java to TypeScript" width="170"></a>&nbsp;
+  <a href="./php-to-typescript"><img src="./covers/php-to-typescript.png" alt="Book 4 — PHP to TypeScript" width="170"></a>
+</p>
+
 The books themselves live in private repositories; the code on this
 public repo is everything the chapters reference. Every example is
 type-checked, linted, formatted, and tested in CI on every push.
 
 ## The four books
 
-| Book | Examples folder | Audience |
-| --- | --- | --- |
-| **Book 1 — TypeScript Essentials** | [`typescript-essentials/`](./typescript-essentials) | Working developer becoming confident in TS across Node, Bun, Deno, and the browser |
-| **Book 2 — The TypeScript Type System** | [`typescript-type-system/`](./typescript-type-system) | TS user who wants generics, mapped types, conditional types, and the rest of the type machinery |
-| **Book 3 — Kotlin and Java to TypeScript** | [`jvm-to-typescript/`](./jvm-to-typescript) | JVM developer (Kotlin-led, Java-aware) crossing to TypeScript |
-| **Book 4 — PHP to TypeScript** | [`php-to-typescript/`](./php-to-typescript) | Modern PHP 8+ developer (Laravel/Symfony) crossing to TypeScript |
+| Book                                       | Examples folder                                       | Audience                                                                                        |
+| ------------------------------------------ | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Book 1 — TypeScript Essentials**         | [`typescript-essentials/`](./typescript-essentials)   | Working developer becoming confident in TS across Node, Bun, Deno, and the browser              |
+| **Book 2 — The TypeScript Type System**    | [`typescript-type-system/`](./typescript-type-system) | TS user who wants generics, mapped types, conditional types, and the rest of the type machinery |
+| **Book 3 — Kotlin and Java to TypeScript** | [`jvm-to-typescript/`](./jvm-to-typescript)           | JVM developer (Kotlin-led, Java-aware) crossing to TypeScript                                   |
+| **Book 4 — PHP to TypeScript**             | [`php-to-typescript/`](./php-to-typescript)           | Modern PHP 8+ developer (Laravel/Symfony) crossing to TypeScript                                |
 
 Each subfolder is an independent npm project with its own `package.json`,
 `tsconfig.json`, and CI script. Read the per-folder `README.md` for the
@@ -89,6 +96,6 @@ MIT. See [LICENSE](./LICENSE).
 ## About the books
 
 The books are published as **_The TypeScript Library_**, a five-book
-collection. Books 1–4 are shipped; Book 5 (*TypeScript in Production*)
+collection. Books 1–4 are shipped; Book 5 (_TypeScript in Production_)
 is in progress. When Book 5 ships, its examples folder lands here as a
 fifth subfolder.

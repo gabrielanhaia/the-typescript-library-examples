@@ -1,6 +1,6 @@
 # Book 4 — PHP to TypeScript
 
-Runnable code examples for **Book 4** of *The TypeScript Library* — *PHP to TypeScript: A Bridge for Modern PHP 8+ Developers* by Gabriel Anhaia.
+Runnable code examples for **Book 4** of _The TypeScript Library_ — _PHP to TypeScript: A Bridge for Modern PHP 8+ Developers_ by Gabriel Anhaia.
 
 This folder is one of four in the [the-typescript-library-examples](https://github.com/gabrielanhaia/the-typescript-library-examples) repository. The top-level [README](../README.md) explains the collection.
 
