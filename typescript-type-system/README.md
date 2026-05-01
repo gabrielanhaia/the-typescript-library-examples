@@ -2,7 +2,7 @@
 
 Runnable code examples for **Book 2** of _The TypeScript Library_ — _The TypeScript Type System: From Generics to DSL-Level Types_ by Gabriel Anhaia.
 
-This folder is one of four in the [the-typescript-library-examples](https://github.com/gabrielanhaia/the-typescript-library-examples) repository. The top-level [README](../README.md) explains the collection.
+This folder is one of five in the [the-typescript-library-examples](https://github.com/gabrielanhaia/the-typescript-library-examples) repository. The top-level [README](../README.md) explains the collection.
 
 ## Layout
 

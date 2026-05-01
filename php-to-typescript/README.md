@@ -2,7 +2,7 @@
 
 Runnable code examples for **Book 4** of _The TypeScript Library_ — _PHP to TypeScript: A Bridge for Modern PHP 8+ Developers_ by Gabriel Anhaia.
 
-This folder is one of four in the [the-typescript-library-examples](https://github.com/gabrielanhaia/the-typescript-library-examples) repository. The top-level [README](../README.md) explains the collection.
+This folder is one of five in the [the-typescript-library-examples](https://github.com/gabrielanhaia/the-typescript-library-examples) repository. The top-level [README](../README.md) explains the collection.
 
 The examples are TypeScript-only — the book shows PHP and TypeScript side-by-side in prose for comparison, but only the TS side is in this CI-verified folder. For PHP parallels, the book's chapters reference the PHP manual and online sandboxes like 3v4l.org.
 

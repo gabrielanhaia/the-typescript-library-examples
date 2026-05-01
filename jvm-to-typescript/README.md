@@ -2,7 +2,7 @@
 
 Runnable code examples for **Book 3** of _The TypeScript Library_ — _Kotlin and Java to TypeScript: A Bridge for JVM Developers_ by Gabriel Anhaia.
 
-This folder is one of four in the [the-typescript-library-examples](https://github.com/gabrielanhaia/the-typescript-library-examples) repository. The top-level [README](../README.md) explains the collection.
+This folder is one of five in the [the-typescript-library-examples](https://github.com/gabrielanhaia/the-typescript-library-examples) repository. The top-level [README](../README.md) explains the collection.
 
 The examples are TypeScript-only — the book shows Kotlin and Java side-by-side in prose for comparison, but only the TS side is in this CI-verified folder. For Kotlin parallels, the book's chapters reference the [Kotlin Playground](https://play.kotlinlang.org).
 

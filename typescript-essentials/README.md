@@ -2,7 +2,7 @@
 
 Runnable code examples that accompany **Book 1** of _The TypeScript Library_ — _TypeScript Essentials: From Working Developer to Confident TS, Across Node, Bun, Deno, and the Browser_ by Gabriel Anhaia.
 
-This folder is one of four in the [the-typescript-library-examples](https://github.com/gabrielanhaia/the-typescript-library-examples) repository. The top-level [README](../README.md) explains the collection; this README is specific to Book 1.
+This folder is one of five in the [the-typescript-library-examples](https://github.com/gabrielanhaia/the-typescript-library-examples) repository. The top-level [README](../README.md) explains the collection; this README is specific to Book 1.
 
 ## Versions pinned
 

@@ -19,6 +19,7 @@ jobs:
           - typescript-type-system
           - jvm-to-typescript
           - php-to-typescript
+          - typescript-in-production
         node:
           - "24"
     steps:
