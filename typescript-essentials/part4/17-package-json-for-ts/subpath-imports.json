@@ -1,0 +1,10 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "type": "module",
+  "imports": {
+    "#utils/*": "./src/utils/*.js",
+    "#config": "./src/config.js",
+    "#app/*": "./src/app/*.js"
+  }
+}

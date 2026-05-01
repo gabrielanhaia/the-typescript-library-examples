@@ -1,0 +1,39 @@
+{
+  "name": "@scope/my-lib",
+  "version": "2.3.0",
+  "description": "A reference TS library with modern exports.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./helpers": {
+      "types": "./dist/helpers.d.ts",
+      "import": "./dist/helpers.mjs",
+      "require": "./dist/helpers.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": ["dist"],
+  "engines": { "node": ">=22.11.0" },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "attw": "attw --pack",
+    "release": "npm run build && npm run attw && npm publish"
+  },
+  "peerDependencies": {
+    "typescript": ">=6.0.0"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.18.0",
+    "tsup": "^9.0.0",
+    "typescript": "^6.0.0",
+    "vitest": "^4.0.0"
+  }
+}

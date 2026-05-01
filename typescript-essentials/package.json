@@ -1,0 +1,35 @@
+{
+  "name": "typescript-essentials-examples",
+  "version": "0.1.0",
+  "description": "Runnable code examples for the book TypeScript Essentials.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "biome check --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "ci": "npm run typecheck && npm run lint && npm run format:check && npm run test"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.4",
+    "@eslint/js": "^10.0.0",
+    "@types/node": "^25.0.0",
+    "eslint": "^10.2.1",
+    "prettier": "^3.4.0",
+    "tsx": "^4.20.0",
+    "typescript": "^6.0.0",
+    "typescript-eslint": "^8.20.0",
+    "vitest": "^4.0.0"
+  },
+  "dependencies": {
+    "zod": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

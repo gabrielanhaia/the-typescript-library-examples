@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ci:
+    name: ${{ matrix.book }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        book:
+          - typescript-essentials
+          - typescript-type-system
+          - jvm-to-typescript
+          - php-to-typescript
+        node:
+          - "24"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node ${{ matrix.node }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+          cache-dependency-path: ${{ matrix.book }}/package-lock.json
+
+      - name: Install
+        working-directory: ${{ matrix.book }}
+        run: npm ci
+
+      - name: CI (typecheck + lint + format:check + test)
+        working-directory: ${{ matrix.book }}
+        run: npm run ci
