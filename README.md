@@ -3,7 +3,7 @@
 Runnable, CI-verified code examples that accompany the books in
 **_The TypeScript Library_** by Gabriel Anhaia.
 
-Collection landing page: **<https://gabrielanhaia.github.io/the-typescript-library/>**.
+Collection landing page: **<https://xgabriel.com/the-typescript-library/>**.
 
 <p align="center">
   <a href="./typescript-essentials"><img src="./covers/typescript-essentials.png" alt="Book 1 — TypeScript Essentials" width="140"></a>&nbsp;
